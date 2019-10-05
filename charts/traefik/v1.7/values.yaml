@@ -324,7 +324,7 @@ acme:
     ##
     # storageClass: "-"
     accessMode: ReadWriteOnce
-    size: 1Gi
+    size: 0.01Gi
     ## A manually managed Persistent Volume Claim
     ## Requires persistence.enabled: true
     ## If defined, PVC must be created manually before volume will be bound
